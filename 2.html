@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script src=https://aframe.io/releases/0.2.0/aframe.min.js></script>
+    </head>
+
+    <body>
+        <a-scene>
+            <a-assets>
+                <img id="picture" src="https://pngtree.com/freebackground/black-technology-military-texture-h5-background-image_1091774.html">
+            </a-assets>
+            <a-box color="white" width="1" height="2" depth="1" position="1.385 1.316 0.000" rotation="23.462 43.635 24.248" scale="0.143 0.371 0.058"
+             src="#picture">
+            
+             <a-animation attribute = "rotation" repeat="indefinite" to="0 360 0"></a-animation> 
+               
+            </a-box>
+            <a-sphere color="red" position="3 1 1" rotation="43.909 -10.241 -3.935" scale="0.347 0.196 0.194"></a-sphere>
+            <a-cylinder color="blue" height="3.5"></a-cylinder>
+            
+        </a-scene>
+    </body>
+</html>
